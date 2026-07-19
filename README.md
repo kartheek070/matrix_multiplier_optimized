@@ -433,16 +433,6 @@ The Version 3 HLS kernel was exported via Vitis HLS Export RTL and instantiated 
 
 ---
 
-## Future Work
-
-| Item | Description |
-|---|---|
-| Fixed-point arithmetic | Evaluate Q-format datapath to shorten accumulator latency vs. IEEE-754 float |
-| AXI DMA integration | Replace CPU-orchestrated transfers with a dedicated DMA engine |
-| DDR-backed operand storage | Extend beyond on-chip BRAM using onboard DDR2 with tiling/streaming |
-| Systolic array architecture | Evaluate as an alternative to multiplier-array + reduction-tree for large N |
-| Multiple processing elements | Replicate the II=1 core to process multiple output tiles concurrently |
-| Double buffering | Overlap next-invocation operand load with current compute/write-back |
 
 ---
 
